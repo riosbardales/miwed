@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>paigina8</title>
+    <link rel="stylesheet" href="estilo8.css">
+</head>
+<body>
+    <header>
+        <h1>registrar correo electronico</h1>
+    </header>
+    <form action="demon8.html" method="get">
+
+<label for="nombre">nombre completo: </label><br>
+<input type="text" id="nombre"name="nombre" required><br><br>
+
+<label for="email">correo electronico: </label><br>
+<input type="email" id="email" name="email" required><br><br>
+
+<label for="edad">edad: </label><br>
+<input type="number" id="edad"name="edad" min="1" max="100"required><br> <br>
+
+
+<label for="genero">seleccione genero</label><br><br>
+<input type="radio" id="masculino" name="genero"value="masculino">
+<label for="masculino">masculino</label><br><br>
+
+<input type="radio" id="femenino" name="genero"value="femenino">
+<label for="femenino">femenino</label><br><br>
+
+
+<input type="radio" id="no" name="genero"value="no">
+<label for="no">prefiero no decirlo</label><br><br>
+
+<label for="curso">seleccionar el curso de su interes</label><br><br>
+<select  id="curso"name="curso">
+
+
+    <option value="java">java</option>
+    <option value="python">python</option>
+    <option value="html5">html5</option>
+    <option value="base de datos">base de datos</option>
+    <option value="herramientas digitales">herramientas digitales</option>
+
+</select><br>
+<label for="comentarios">comentarios adicionales</label><br>
+<textarea id="comentarios" name="comentarios" rows="10" cols="10"></textarea><br>
+
+<input type="submit" value="enviar">
+<input type="reset" va>
+
+
+    </form>
+
+    
+</body>
+</html>
